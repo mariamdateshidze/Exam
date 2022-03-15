@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 0 20px;
+    background-color: aquamarine;
+
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.form-content{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.text-line{
+    font-size: 14px;
+    line-height: 19px;
+    color: #FF2288;
+    margin-right: 35px;
+    text-decoration: none;
+    
+
+}
+
+.text-line:hover{
+    
+   color: #f591bf;
+       
+    
+}
+.message-icon{
+    position: relative;
+    margin-right: 30px;
+    
+}
+
+.bell-icon{
+    position: relative;
+    margin-right: 30px;
+
+}
+
+.ball{
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: #FF2288;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    right: 322px;
+    top:47px
+}
+
+.ball2{
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: #FF2288;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    right: 269px;
+    top:47px
+}
+
+
+.nav-content button{
+    background-color: #FF2288;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 17px 36px;
+    margin-left: 30px;
+
+
+}
+
+
+.nav-content button:hover{
+    background-color: #f591bf;
+   
+}
+
+
+.input-box{
+    width: 446px;
+    height: 56px;
+    position: relative;
+    font-size: 14px;
+    line-height: 19px;
+    color: #111111;
+    opacity: 50%;
+    border-radius: 12px;
+    padding-left: 20px;
+
+
+}
+
+.search-icon{
+    position: absolute;
+    left: 430px;
+
+}
+
+
+.main-section{
+    padding: 80px 170px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+li{
+    margin-right: 50px;
+    font-size: 16px;
+    line-height: 21x;
+   
+}
+
+.list{
+    text-decoration: none;
+    color: #222222;
+}
+
+.list:hover{
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    padding: 16px 18px;
+}
+
+.filters-box{
+    display: flex;
+    align-items: center;
+    border: 1px solid #D8D8D8;
+    border-radius: 12px;
+    width: 132px;
+    height: 56px;
+    padding: 16px 25px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #222222;
+    margin-left: 20px ;
+
+}
+
+.filters-box img{
+    margin-right: 15px;
+}
+
+.listing-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

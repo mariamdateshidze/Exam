@@ -242,6 +242,10 @@ li{
 
 }
 
+.load-more-button:hover{
+    background-color: #D8D8D8;
+}
+
 /* top designers section */
 .grey-block{
     width: 100%;
@@ -311,10 +315,62 @@ li{
 }
 
 
-
-
 .designers-info-wrapper{
     display: flex;
     justify-content: space-between;
+
+}
+
+
+/* footer */
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+}
+
+
+.footer-list li{
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 21px;
+    
+    
+}
+
+
+.footer-content-first a{
+    text-decoration: none;
+    color: #222222;
+
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-line{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.footer-logos{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+
+}
+
+.logo{
+    margin-right: 20px;
+    
+}
+.footer-logos span{
+    font-size: 16px;
+    line-height: 40px;
+    color: #222222;
 
 }

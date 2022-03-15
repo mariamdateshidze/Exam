@@ -124,8 +124,16 @@
 }
 
 
-.main-section{
-    padding: 80px 170px;
+
+
+
+.container-two{
+    max-width: 1200px;
+    width: 100%;
+    margin: 70px auto;
+    padding: 0 20px;
+    background-color: rgb(130, 172, 158);
+
 }
 
 ul{
@@ -173,6 +181,140 @@ li{
 
 .listing-box{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+
+/* pictures and descriptions */
+
+
+
+.four-pictures-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    
+    
+    
+
+}
+
+
+.low-4pictures-box{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.pic-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+.pic-description img{
+    width: 290px;
+    box-shadow: 0px 0px 20px #5B5EBA1F;
+    
+}
+
+.pic-description h3{
+    font-size: 18px;
+    line-height: 24px; 
+    
+}
+
+
+.load-more-button{
+
+    background-color: #F2F2F2;
+    font-size: 16px;
+    line-height: 21px;
+    color: #222222;
+    border-radius: 12px;
+    padding: 16px 100px;
+    margin-left: 420px;
+    margin-top: 70px;
+
+}
+
+/* top designers section */
+.grey-block{
+    width: 100%;
+    background-color: #FAFAFA;
+    height: 500px;
+    
+}
+
+.designers-list{
+    padding-top: 67px;
+}
+
+
+.designers-list h3{
+    font-size: 32px;
+    line-height: 43px;
+    color: #222222;
+    
+}
+
+.about-designer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 54px;
+  
+    
+    
+}
+
+.about-designer-box img{
+    width: 132px ;
+    
+}
+
+.about-designer-box h4{
+    font-size: 16px;
+    line-height: 21px;
+    color: #222222;
+    margin-top: 15px;
+
+}
+
+.about-designer-box span{
+    font-size: 12px;
+    line-height: 16px;
+    color: #222222;
+    opacity: 60%;
+    margin-top: 10px;
+    margin-bottom: 17px;
+
+}
+
+.follow-button{
+    font-size: 14px;
+    line-height: 19px;
+    width: 132px ;
+    border-radius: 12px;
+    padding: 12px 33px;
+    background-color: #F2F2F2;
+    border: 1px solid #D8D8D8;
+}
+
+.follow-button:hover{
+    background-color: #D8D8D8;
+
+}
+
+
+
+
+.designers-info-wrapper{
+    display: flex;
+    justify-content: space-between;
+
 }

@@ -39,6 +39,7 @@
     color: #FF2288;
     margin-right: 35px;
     text-decoration: none;
+    font-family: 'Avenir LT Std';
     
 
 }
@@ -54,12 +55,25 @@
     margin-right: 30px;
     
 }
+.message-icon:hover{
+   width: 30px;
+    
+}
+
+.man-icon:hover{
+    width: 60px;
+}
 
 .bell-icon{
     position: relative;
     margin-right: 30px;
 
 }
+
+.bell-icon:hover{
+    width: 30px;
+     
+ }
 
 .ball{
     height: 10px;
@@ -119,7 +133,8 @@
 
 .search-icon{
     position: absolute;
-    left: 430px;
+    left: 640px;
+    
 
 }
 
@@ -142,10 +157,12 @@ ul{
     
 }
 
-li{
+.list-wrapper li{
     margin-right: 50px;
     font-size: 16px;
     line-height: 21x;
+    font-family: 'Avenir LT Std';
+    
    
 }
 
@@ -172,6 +189,7 @@ li{
     line-height: 21px;
     color: #222222;
     margin-left: 20px ;
+    font-family: 'Mukta';
 
 }
 
@@ -179,6 +197,12 @@ li{
     margin-right: 15px;
 }
 
+
+
+.filters-box:hover{
+    background-color: pink;
+
+}
 .listing-box{
     display: flex;
     justify-content: space-between;
@@ -194,9 +218,7 @@ li{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 40px;
-    
-    
-    
+
 
 }
 
@@ -222,10 +244,26 @@ li{
     
 }
 
+.pic-description img:hover{
+    width: 290px;
+    box-shadow: 0px 0px 20px #5B5EBA1F;
+    
+}
+
 .pic-description h3{
     font-size: 18px;
     line-height: 24px; 
+    color: #222222;
+    text-align: center;
+    font-family: 'Avenir LT Std';
     
+   
+    
+}
+
+.pic-description h3:hover{
+    
+    color: #000000;
 }
 
 
@@ -263,6 +301,9 @@ li{
     font-size: 32px;
     line-height: 43px;
     color: #222222;
+    font-family: 'Avenir LT Std';
+   
+    
     
 }
 
@@ -281,11 +322,18 @@ li{
     
 }
 
+.about-designer-box img:hover{
+    width: 140px ;
+    
+}
+
 .about-designer-box h4{
     font-size: 16px;
     line-height: 21px;
     color: #222222;
     margin-top: 15px;
+    font-family: 'Avenir LT Std';
+    
 
 }
 
@@ -296,6 +344,7 @@ li{
     opacity: 60%;
     margin-top: 10px;
     margin-bottom: 17px;
+    font-family: 'Avenir LT Std';
 
 }
 
@@ -351,6 +400,7 @@ li{
     margin-bottom: 15px;
     font-size: 16px;
     line-height: 21px;
+    font-family: 'Mukta';
     
     
 }
@@ -359,6 +409,13 @@ li{
 .footer-content-first a{
     text-decoration: none;
     color: #222222;
+
+}
+
+
+.footer-content-first a:hover{
+    
+    color: #000000;
 
 }
 
@@ -384,46 +441,269 @@ li{
     margin-right: 20px;
     
 }
-.footer-logos span{
+
+.logo:hover{
+    background-color: #3c6acc;
+    width: 30px;
+    border-radius: 50px;
+    
+}
+
+.insta-logo:hover{
+    background-color: #cc3c9c;
+    
+
+}
+
+.academy-text{
     font-size: 16px;
     line-height: 40px;
     color: #222222;
+    font-family: 'Avenir LT Std';
+}
+
+.for-text{
+    font-size: 16px;
+    line-height: 40px;
+    color: #222222;
+    font-family: 'Mukta';
+
 
 }
 
-
-.black-block{
-    width: 300px;
-    height: 700px;
-    background-color: black;
-  
-   
-    
-    
-    
+footer a{
+    font-family: 'Mukta';
 }
 
-.mtliani{
+
+
+
+/*  sidebar  */
+
+.whole-container{
     display: flex;
     flex-direction: row;
     max-width: 1700px;
     width: 100%;
-
     margin: 0 auto;
-    
     background-color: #f591bf;
   
 }
 
-.black-block{
+.sidebar{
     height:1000px;
     width: 300px;
-    /* padding-left: 200px; */
-    
- 
-   
-    
-    
+    background-color: #222222;
     
 }
+
+
+
+.aside a{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 15px;
+    font-family: 'Mukta';
+}
+
+.aside {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-bottom: 54px;
+   margin-left: 40px;
+   
+}
+
+.design-text{
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 125px;
+    margin-top: 42px;
+    margin-left: 30px;
+    font-family: 'Avenir LT Std';
+
+
+}
+
+
+.aside:hover{
+    background-color: #FF2288;
+    border-radius: 12px;
+    padding-top: 19px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+   
+
+
+}
+
+.designer-box span{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Mukta';
+
+}
+
+
+.designer-box img{
+    width: 44px;
+    margin-right: 20px;
+
+}
+
+.designer-box img:hover{
+    width: 50px;
+ 
+
+}
+
+
+.designer-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    
+}
+
+.designer-names h3{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    
+
+}
+
+.designer-names{
+    margin-top: 90px;
+}
+
+.designer-names a{
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 19px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'M PLUS 1';
+
+}
+
+.designer-names a:hover{
+    
+    color: #a59b9b;
+
+}
+
+/* listing html file header */
+
+.person-icon{
+    border: 1px solid #E7E7E7;
+    border-radius: 50px;
+    padding: 15px;
+
+}
+
+.person-icon:hover{
+    background-color: #a59b9b;
+  
+
+}
+
+/* table */
+
+.phone-section{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.phone-info ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.spani{
+  height: 2px;
+  width: 700px;
+ background-color: #FF2288;
+}
+
+
+.title-info ul{
+    
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+/* 
+.title-info li{
+    margin-right: 130px;
+
+
+} */
+
+/* 
+.phone-info li{
+    margin-right: 257px;
+    text-align: center;
+} */
+
+
+.date{
+    margin-right: 80px;
+}
+
+.code{
+    margin-right: 180px;
+
+}
+
+.phone{
+    margin-right: 70px;
+
+}
+
+.price{
+    margin-right: 140px;
+
+}
+
+.quantity{
+    margin-right: 200px;
+
+}
+
+/* td{
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+
+.spani{
+    height: 2px;
+    width: 700px;
+    background-color: #FF2288;
+  }
+.kik:hover{
+    background-color: #222222;
+    border-radius: 100px;
+} */
 

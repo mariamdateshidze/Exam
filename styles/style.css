@@ -580,6 +580,7 @@ footer a{
     line-height: 21px;
     margin-left: 40px;
     margin-bottom: 30px;
+    font-family: 'Mukta';
     
 
 }
@@ -596,8 +597,7 @@ footer a{
     line-height: 19px;
     list-style: none;
     text-decoration: none;
-    font-family: 'M PLUS 1';
-
+    font-family: 'Mukta';
 }
 
 .designer-names a:hover{

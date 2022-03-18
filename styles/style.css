@@ -51,7 +51,7 @@
     font-size: 14px;
     line-height: 19px;
     color: #FF2288;
-    margin-right: 35px;
+    margin-right: 55px;
     text-decoration: none;
     font-family: 'Avenir LT Std';
     
@@ -66,8 +66,8 @@
 }
 .message-icon{
     position: relative;
-    margin-right: 30px;
-    
+    right: 60px;
+   
 }
 .message-icon:hover{
    width: 30px;
@@ -80,7 +80,7 @@
 
 .bell-icon{
     position: relative;
-    margin-right: 30px;
+    right: 30px;
 
 }
 
@@ -227,11 +227,11 @@ ul{
 }
 
 
+
 /* pictures and descriptions */
 
 
-
-.four-pictures-box{
+.four-pictures-box{ 
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 40px;
@@ -814,17 +814,10 @@ footer a{
    margin-left: 40px;
    
 }
-
-.design-text{
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
-    margin-bottom: 125px;
+.design-today{
     margin-top: 42px;
+    margin-bottom: 120px;
     margin-left: 30px;
-    font-family: 'Avenir LT Std';
-
-
 }
 
 

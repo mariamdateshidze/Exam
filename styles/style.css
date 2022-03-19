@@ -10,9 +10,8 @@
     max-width: 1700px;
     width: 100%;
     margin: 0 auto;
-  
-    /* background-color: #f591bf;
-   */
+    
+
 }
 
 .main-container{
@@ -20,23 +19,19 @@
     width: 100%;
     margin: 30px auto;
     padding: 0 20px;
-    /* background-color: aquamarine; */
-
+   
 }
 
 .header-content{
     display: flex;
     justify-content: space-between;
     position: relative;
-  
-    
 
 }
 
 .form-content{
     display: flex;
     align-items: center;
-  
 
 }
 
@@ -55,20 +50,19 @@
     text-decoration: none;
     font-family: 'Avenir LT Std';
     
-
 }
 
 .text-line:hover{
-    
    color: #f591bf;
        
-    
 }
+
 .message-icon{
     position: relative;
     right: 60px;
    
 }
+
 .message-icon:hover{
    width: 30px;
     
@@ -151,18 +145,12 @@
     
 }
 
-
-
-
-
 .container-two{
     max-width: 1100px;
     width: 100%;
     margin: 70px auto;
     padding: 0 20px;
    
-    /* background-color: rgb(130, 172, 158); */
-  
 
 }
 
@@ -254,7 +242,6 @@ ul{
     flex-direction: column;
     align-items: center;
    
-   
 }
 
 
@@ -262,7 +249,6 @@ ul{
     width: 280px;
     box-shadow: 0px 0px 20px #5B5EBA1F;
    
-    
 }
 
 .pic-description img:hover{
@@ -279,8 +265,6 @@ ul{
     color: #222222;
     text-align: center;
     font-family: 'Avenir LT Std';
-    
-   
     
 }
 
@@ -300,6 +284,7 @@ ul{
     padding: 16px 100px;
     margin-left: 420px;
     margin-top: 70px;
+    border: #AFAFAF;
 
 }
 
@@ -591,8 +576,10 @@ ul{
 
 
 
+
 /* top designers section */
 .grey-block{
+    
     width: 100%;
     background-color: #FAFAFA;
     height: 500px;
@@ -610,8 +597,6 @@ ul{
     color: #222222;
     font-family: 'Avenir LT Std';
    
-    
-    
 }
 
 .about-designer-box{
@@ -619,8 +604,8 @@ ul{
     flex-direction: column;
     align-items: center;
     margin-top: 54px;
-  
-    
+    margin-right: 5px;
+
     
 }
 
@@ -709,7 +694,6 @@ ul{
     line-height: 21px;
     font-family: 'Mukta';
     
-    
 }
 
 
@@ -721,7 +705,6 @@ ul{
 
 
 .footer-content-first a:hover{
-    
     color: #000000;
 
 }
@@ -774,8 +757,6 @@ ul{
     line-height: 40px;
     color: #222222;
     font-family: 'Mukta';
-
-
 }
 
 footer a{
@@ -840,8 +821,6 @@ footer a{
     padding-left: 20px;
     padding-right: 40px;
    
-
-
 }
 
 .designer-box span{
@@ -862,7 +841,6 @@ footer a{
 .designer-box img:hover{
     width: 50px;
  
-
 }
 
 
@@ -883,7 +861,6 @@ footer a{
     margin-bottom: 30px;
     font-family: 'Mukta';
     
-
 }
 
 .designer-names{
@@ -907,6 +884,7 @@ footer a{
 
 }
 
+
 /* table html file header */
 
 .person-icon{
@@ -921,6 +899,7 @@ footer a{
   
 
 }
+
 
 /* table */
 
@@ -974,6 +953,7 @@ td{
     background-color: #F2F2F2;
     border-radius: 12px;
 }
+
 
 
 /* footer */

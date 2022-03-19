@@ -1,5 +1,221 @@
 /* 768  480 */
 
-@media (max-width: 768px){
+@media (max-width: 1024px){
+
+    .input-box{
+        width: 300px;
+    }
+    
+    .list-wrapper{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+        margin-bottom: 30px;
+        margin-left: 130px;
+    }
+
+    .four-pictures-box{
+        flex-wrap: wrap;
+    }
+
+    .low-4pictures-box{
+        flex-wrap: wrap;
+    }
+
+    .load-more-button{
+        margin-left: 220px;
+        padding: 16px 60px;
+    }
+    
+    .designers-info-wrapper{
+        flex-wrap: wrap;
+    }
+
+   
+
+    .footer-logos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .listing-box{
+        flex-direction: column;
+        margin-bottom: 20px;
+        align-items: center;
+
+    }
+
+    .hover-icons{
+        display: none;
+    }
+      
+    
+    .search-icon{
+        left: 250px;
+
+    }
+
+    .text-line{
+        display: none;
+    }
+    .message-icon{
+        display: none;
+
+    }
+
+    .ball{
+        display: none;
+    }
+    .ball2{
+        display: none;
+    }
+    .bell-icon{
+        display: none;
+    }
+
+    .nav-content button{
+        padding: 10px 30px;
+    }
+
+    .sidebar{
+        width: 260px;
+        height: 1300px;
+    }
+    
+    .png-icons-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .burger-menu{
+        margin-bottom: 40px;
+    }
+    .design-today{
+        margin-bottom: 30px;
+    }
+        
+
+    .pic-description{
+        margin-bottom: 30px;
+    }
+
+    .pictures-box img{
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .about-designer-box img{
+        max-width: 130px;
+        width: 100%;
+
+
+    }
+
+    .footer-box{
+
+        margin-top: 300px;
+    }
+
     
 }
+
+
+
+    @media (max-width: 768px){
+        .sidebar{
+            display: none;
+        }
+
+        .input-box{
+            width: 200px;
+        }
+
+        .search-icon{
+            left: 160px;
+    
+        }
+
+        .load-more-button{
+            margin-left: 220px;
+            padding: 16px 60px;
+            
+        }
+
+        .footer-box{
+            flex-wrap: wrap;
+            margin-top: 400px;
+
+        }
+
+        .footer-content-first{
+            margin-top: 200px;
+
+        }
+
+    }
+
+  
+    @media (max-width: 480px){
+        .input-box{
+            width: 150px;
+        }
+
+        .search-icon{
+            left: 120px;
+    
+        }
+
+        .input-box{
+            font-size: 11px;
+        }
+
+
+        .nav-content button{
+            padding: 5px 10px;
+            margin-left: 5px;
+        }
+
+        .list-wrapper{
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-left: 30px;
+        }
+
+        .load-more-button{
+            margin-left: 70px;
+            padding: 16px 60px;
+
+            
+        }
+        .footer-box{
+          
+           display: grid;
+           grid-template-columns: auto auto;
+           margin-top: 900px;
+           
+        }
+
+      
+        
+       
+
+
+     
+       
+
+    
+
+      
+    }
+
+        
+ 
+    
+
+ 
+
+ 
+ 
+
+

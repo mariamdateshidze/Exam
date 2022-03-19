@@ -590,6 +590,7 @@ ul{
 }
 
 
+
 /* top designers section */
 .grey-block{
     width: 100%;
@@ -794,6 +795,15 @@ footer a{
     
 }
 
+.burger-menu{
+    margin-bottom: 130px;
+    margin-left: 5px;
+}
+
+.burger-menu:hover{
+    width: 20px;
+}
+
 
 
 .aside a{
@@ -817,7 +827,8 @@ footer a{
 .design-today{
     margin-top: 42px;
     margin-bottom: 120px;
-    margin-left: 30px;
+    margin-left: 15px;
+
 }
 
 

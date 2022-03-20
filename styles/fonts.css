@@ -10,8 +10,6 @@
 
 
 
-
-
 @font-face {
     font-family: 'Mukta';
     src: url('../fonts/Mukta-Regular.woff2') format('woff2'),
@@ -21,5 +19,8 @@
     font-style: normal;
     font-display: swap;
 }
+
+
+
 
 

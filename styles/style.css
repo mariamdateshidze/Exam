@@ -77,6 +77,8 @@
 
 .man-icon:hover{
     width: 60px;
+    border: 2px dotted rgb(235, 14, 150);
+    border-radius: 50px;
 }
 
 .bell-icon{
@@ -211,7 +213,7 @@ ul{
 
 
 .filters-box:hover{
-    background-color: pink;
+    background-color: papayawhip;
 
 }
 .listing-box{
@@ -713,7 +715,7 @@ ul{
 
 
 .footer-content-first a:hover{
-    color: #000000;
+    color: #b10a5d;
 
 }
 
@@ -904,7 +906,7 @@ footer a{
 }
 
 .person-icon:hover{
-    background-color: #a59b9b;
+    background-color: papayawhip;
   
 
 }

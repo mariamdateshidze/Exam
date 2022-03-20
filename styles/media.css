@@ -13,6 +13,7 @@
         margin-left: 130px;
     }
 
+  
     .four-pictures-box{
         flex-wrap: wrap;
     }
@@ -115,6 +116,8 @@
         margin-top: 300px;
     }
 
+  
+
 
 
 
@@ -147,6 +150,13 @@
         .input-box{
             width: 200px;
         }
+
+        .menu-icon{
+            width: 70px;
+            display: flex;
+            margin-right: 15px;
+        }
+    
 
         .search-icon{
             left: 160px;
@@ -195,6 +205,10 @@
 
         .input-box{
             font-size: 11px;
+        }
+
+        .menu-icon{
+            margin-right: 5px;
         }
 
 

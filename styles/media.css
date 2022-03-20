@@ -255,4 +255,20 @@
 
     }
 
+
+    @media (max-width: 320px){
+        .footer-box{
+            grid-template-columns: auto;
+            margin-top: 2000px;
+            
+            
+         }
+
+         .second-page-footer{
+            margin-top: 200px;
+
+         }
+
+    }
+
         

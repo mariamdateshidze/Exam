@@ -81,6 +81,8 @@
     border-radius: 50px;
 }
 
+    
+
 .bell-icon{
     position: relative;
     right: 30px;
@@ -89,29 +91,32 @@
 
 .bell-icon:hover{
     width: 30px;
+    
      
  }
 
 .ball{
+    position: absolute;
+    right: 304px;
+    top:17px;
     height: 10px;
     width: 10px;
     border-radius: 10px;
     background-color: #FF2288;
     border: 1px solid #FFFFFF;
-    position: absolute;
-    right: 304px;
-    top:17px
+    
 }
 
 .ball2{
+    position: absolute;
+    right: 251px;
+    top:16px;
     height: 10px;
     width: 10px;
     border-radius: 10px;
     background-color: #FF2288;
     border: 1px solid #FFFFFF;
-    position: absolute;
-    right: 251px;
-    top:16px
+   
 }
 
 
@@ -228,7 +233,7 @@ ul{
 
 
 
-/* pictures and descriptions */
+/* section of pictures and descriptions */
 
 
 .four-pictures-box{ 
@@ -309,24 +314,22 @@ ul{
 
 
 .add-icon{
+    position: absolute;
     opacity: 30%;
- 
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top:40px;
     z-index: 1;
 }
 
 
 .like-icon{
+    position: absolute;
     opacity: 30%;
-
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top: 80px;
     z-index: 1;
 }
@@ -343,12 +346,13 @@ ul{
 }
 
 .add-icon2{
+    position: absolute;
     opacity: 30%;
  
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
+    
     top:40px;
     left: 280px;
     z-index: 1;
@@ -356,12 +360,12 @@ ul{
 
 
 .like-icon2{
+    position: absolute;
     opacity: 30%;
 
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top: 80px;
     left: 280px;
     z-index: 1;
@@ -378,12 +382,12 @@ ul{
 }
 
 .add-icon3{
+    position: absolute;
     opacity: 30%;
  
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top:40px;
     left: 570px;
     z-index: 1;
@@ -391,12 +395,12 @@ ul{
 
 
 .like-icon3{
+    position: absolute;
     opacity: 30%;
 
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top: 80px;
     left: 570px;
     z-index: 1;
@@ -413,12 +417,12 @@ ul{
 }
 
 .add-icon4{
+    position: absolute;
     opacity: 30%;
  
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top: 40px;;
     left: 850px;
     z-index: 1;
@@ -426,12 +430,12 @@ ul{
 
 
 .like-icon4{
+    position: absolute;
     opacity: 30%;
 
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top: 80px;
     left: 850px;
     z-index: 1;
@@ -448,12 +452,12 @@ ul{
 }
 
 .add-icon5{
+    position: absolute;
     opacity: 30%;
  
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top:350px;
     left: 5px;
     z-index: 1;
@@ -461,12 +465,12 @@ ul{
 
 
 .like-icon5{
+    position: absolute;
     opacity: 30%;
 
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top: 390px;
     left: 5px;
     z-index: 1;
@@ -483,12 +487,12 @@ ul{
 }
 
 .add-icon6{
+    position: absolute;
     opacity: 30%;
  
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top:350px;
     left: 290px;
     z-index: 1;
@@ -496,12 +500,12 @@ ul{
 
 
 .like-icon6{
+    position: absolute;
     opacity: 30%;
 
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top: 390px;
     left: 290px;
     z-index: 1;
@@ -518,12 +522,12 @@ ul{
 }
 
 .add-icon7{
+    position: absolute;
     opacity: 30%;
  
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top:350px;
     left: 570px;
     z-index: 1;
@@ -531,12 +535,12 @@ ul{
 
 
 .like-icon7{
+    position: absolute;
     opacity: 30%;
 
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top: 390px;
     left: 570px;
     z-index: 1;
@@ -553,12 +557,12 @@ ul{
 }
 
 .add-icon8{
+    position: absolute;
     opacity: 30%;
  
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top:350px;
     left: 850px;
     z-index: 1;
@@ -566,12 +570,12 @@ ul{
 
 
 .like-icon8{
+    position: absolute;
     opacity: 30%;
 
     background-color: #ffffff;
     border-radius: 12px;
     padding: 3px;
-    position: absolute;
     top: 390px;
     left: 850px;
     z-index: 1;
@@ -640,6 +644,14 @@ ul{
     color: #222222;
     margin-top: 15px;
     font-family: 'Avenir LT Std';
+    
+
+}
+
+.about-designer-box h4:hover{
+    
+    color: #725a5a;
+ 
     
 
 }
@@ -752,6 +764,7 @@ ul{
     background-color: #3c6acc;
     width: 30px;
     border-radius: 50px;
+    padding: 3px;
     transition: 0.5s;
     
 }
@@ -978,8 +991,8 @@ td{
 
 
 /* footer */
-.footer-box-second-page{
+.second-page-footer{
     display: flex;
     justify-content: space-between;
-    margin-top: 220px;
+    margin-top: 300px;
 }

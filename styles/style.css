@@ -123,6 +123,7 @@
     border-radius: 12px;
     padding: 17px 36px;
     margin-left: 30px;
+    border: 2px solid #FF2288;
 
 
 }
@@ -130,6 +131,7 @@
 
 .nav-content button:hover{
     background-color: #f591bf;
+    
    
 }
 
@@ -188,6 +190,7 @@ ul{
     background-color: #F2F2F2;
     border-radius: 12px;
     padding: 16px 18px;
+    transition: 0.5s;
 }
 
 .filters-box{
@@ -220,6 +223,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 
@@ -262,6 +266,7 @@ ul{
 .pic-description img:hover{
     width: 290px;
     box-shadow: 0px 0px 20px #5B5EBA1F;
+    transition:  0.5s;
    
 }
 
@@ -625,6 +630,7 @@ ul{
 
 .about-designer-box img:hover{
     width: 140px ;
+    transition: 0.5s;
     
 }
 
@@ -746,11 +752,13 @@ ul{
     background-color: #3c6acc;
     width: 30px;
     border-radius: 50px;
+    transition: 0.5s;
     
 }
 
 .insta-logo:hover{
-    background-color: #cc3c9c;
+    background-color: #db4a75;
+    transition: 0.5s;
     
 
 }
@@ -781,7 +789,7 @@ footer a{
 
 .sidebar{
     
-    height:1000px;
+    height:1070px;
     width: 300px;
     background-color: #222222;
     
@@ -831,6 +839,7 @@ footer a{
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 40px;
+    transition: 0.5s;
    
 }
 
